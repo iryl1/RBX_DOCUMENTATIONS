@@ -1,8 +1,7 @@
-# Roblox InputObject Docs
+# Roblox InputObject System Docs
 
-`InputObject` is what gets passed around whenever input happens — mouse clicks, key presses, touch, gamepad, all of it. dug into the source to figure out what's actually stored and what all the helper methods are checking under the hood.
+`InputObject` is the engine custom input handler
 
-if this helps you out, drop a ⭐ or come hang: [discord.gg/JpeFatN8yn](https://discord.gg/JpeFatN8yn)
 
 ---
 
@@ -239,7 +238,6 @@ namespace Offsets {
 }
 ```
 
-placeholders — dump them yourself, they move between builds.
 
 ---
 
