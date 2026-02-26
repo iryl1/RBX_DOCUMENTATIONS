@@ -1,6 +1,6 @@
 # Roblox Lighting System Docs
 
-so i got tired of digging through forums and discord servers trying to figure out how roblox's lighting actually works under the hood, so i just started writing it down myself. this is what i've figured out so far — if something's wrong or missing lmk and i'll fix it.
+so ive recently realized theres about 0 documentation on roblox engines just tons of leaked code, so i just started writing it down myself. this is what i've figured out so far — if something's wrong or missing lmk and i'll fix it.
 
 if this helps you out at all, drop a ⭐ or come hang in the discord: [discord.gg/JpeFatN8yn](https://discord.gg/JpeFatN8yn)
 
