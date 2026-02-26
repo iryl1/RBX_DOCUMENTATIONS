@@ -1,1 +1,3 @@
-im a fairly new roblox ethical cheat developer, and it seems theres not much public documentation about the game called "roblox" so i decided to make my own, if you find this useful you can join https://discord.gg/JpeFatN8yn or star the repo to show ur support
+so ive recently realized theres about 0 documentation on roblox engines just tons of leaked code, so i just started writing it down myself. this is what i've figured out so far — if something's wrong or missing lmk and i'll fix it.
+
+if this helps you out at all, drop a ⭐ or come hang in the discord: [discord.gg/JpeFatN8yn](https://discord.gg/JpeFatN8yn)
