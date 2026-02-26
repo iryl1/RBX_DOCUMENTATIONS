@@ -1,9 +1,6 @@
 # Roblox Humanoid System Docs
 
-continuing the internal docs series. this one covers the Humanoid — how it stores state, how movement and health work under the hood, the appendage/body part system, and how to replicate it by writing to offsets yourself.
-
-if this helps, ⭐ star the repo or join the discord: [discord.gg/JpeFatN8yn](https://discord.gg/JpeFatN8yn)
-
+Humanoid system — how it works, what all the types and properties actually mean, and how to replicate it by writing to offsets yourself
 ---
 
 ## What this covers
