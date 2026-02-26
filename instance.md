@@ -1,8 +1,7 @@
-# Roblox Instance Docs
+# Roblox Instance System Docs
 
 `Instance` is the base class everything inherits from. most of this you never need to think about until you're reading memory, and then suddenly it matters a lot — especially how the children list is laid out, what `OnDemandInstance` is, and what actually happens when you call `setParent`.
 
-if this helps you out, drop a ⭐ or come hang: [discord.gg/JpeFatN8yn](https://discord.gg/JpeFatN8yn)
 
 ---
 
@@ -332,7 +331,6 @@ namespace Offsets {
 }
 ```
 
-placeholders — dump them yourself, they move between builds.
 
 ---
 
