@@ -1,8 +1,7 @@
 # Roblox Camera System Docs
 
-continuing the internal docs series. this one covers the camera system — how it works, what all the types and properties actually mean, and how to replicate it by writing to offsets yourself
+camera system — how it works, what all the types and properties actually mean, and how to replicate it by writing to offsets yourself
 
-if this helps, ⭐ star the repo or join the discord: [discord.gg/JpeFatN8yn](https://discord.gg/JpeFatN8yn)
 
 ---
 
