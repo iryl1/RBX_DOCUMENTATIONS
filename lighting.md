@@ -168,7 +168,7 @@ this is the part most people actually want. there's no single ClockTime param yo
 #include <cmath>
 #include <iostream>
 
-// placeholder offsets — replace with your own dumped values
+
 namespace Offsets {
     uintptr_t RenderView      = 0x????????; // base of the lighting/render object
 
@@ -202,48 +202,6 @@ HANDLE hProcess = nullptr;
 uintptr_t moduleBase = 0;
 ```
 
-### getting the process handle
-
-```cpp
-HANDLE GetRobloxHandle() {
-    HWND hwnd = FindWindowA(nullptr, "Roblox");
-    if (!hwnd) return nullptr;
-
-    DWORD pid;
-    GetWindowThreadProcessId(hwnd, &pid);
-    return OpenProcess(PROCESS_VM_READ | PROCESS_VM_WRITE | PROCESS_VM_OPERATION, FALSE, pid);
-}
-
-uintptr_t GetModuleBase(HANDLE hProc, const char* modName) {
-    HMODULE hMods[1024];
-    DWORD cbNeeded;
-    if (EnumProcessModules(hProc, hMods, sizeof(hMods), &cbNeeded)) {
-        for (unsigned i = 0; i < cbNeeded / sizeof(HMODULE); i++) {
-            char name[MAX_PATH];
-            GetModuleBaseNameA(hProc, hMods[i], name, sizeof(name));
-            if (strcmp(name, modName) == 0)
-                return (uintptr_t)hMods[i];
-        }
-    }
-    return 0;
-}
-```
-
-### read/write helpers
-
-```cpp
-template<typename T>
-T Read(uintptr_t address) {
-    T val{};
-    ReadProcessMemory(hProcess, (LPCVOID)address, &val, sizeof(T), nullptr);
-    return val;
-}
-
-template<typename T>
-void Write(uintptr_t address, T value) {
-    WriteProcessMemory(hProcess, (LPVOID)address, &value, sizeof(T), nullptr);
-}
-```
 
 ### deriving all lighting properties from a time value
 
