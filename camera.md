@@ -1,6 +1,6 @@
 # Roblox Camera System Docs
 
-continuing the internal docs series. this one covers the camera system — how it works, what all the types and properties actually mean, and how to replicate it by writing to offsets yourself. same deal as before, offsets are placeholders.
+continuing the internal docs series. this one covers the camera system — how it works, what all the types and properties actually mean, and how to replicate it by writing to offsets yourself
 
 if this helps, ⭐ star the repo or join the discord: [discord.gg/JpeFatN8yn](https://discord.gg/JpeFatN8yn)
 
@@ -278,18 +278,7 @@ namespace Offsets {
 
 HANDLE hProcess = nullptr;
 
-template<typename T>
-T Read(uintptr_t address) {
-    T val{};
-    ReadProcessMemory(hProcess, (LPCVOID)address, &val, sizeof(T), nullptr);
-    return val;
-}
 
-template<typename T>
-void Write(uintptr_t address, T value) {
-    WriteProcessMemory(hProcess, (LPVOID)address, &value, sizeof(T), nullptr);
-}
-```
 
 ### structs
 
