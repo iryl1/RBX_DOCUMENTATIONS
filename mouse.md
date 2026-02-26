@@ -1,8 +1,7 @@
-# Roblox Mouse Docs
+# Roblox Mouse System Docs
 
 `Mouse` is what you get from `player:GetMouse()`. it's a thin wrapper over the input stream that does raycasting on demand. not much going on structurally but there's a few things that aren't obvious — mainly how `Hit` works, what `ViewSizeX/Y` actually measures, and the keyboard signal situation.
 
-if this helps you out, drop a ⭐ or come hang: [discord.gg/JpeFatN8yn](https://discord.gg/JpeFatN8yn)
 
 ---
 
@@ -287,7 +286,6 @@ namespace Offsets {
 }
 ```
 
-placeholders — dump them yourself, they move between builds.
 
 ---
 
