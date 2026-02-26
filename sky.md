@@ -1,8 +1,6 @@
-# Roblox Sky Docs
+# Roblox Sky System Docs
 
-sky is a pretty small class but there's a couple weird things in here i didn't expect — mainly that the front face setter has a GA call buried in it, and that `CelestialBodiesShown` is wired up differently from everything else. writing it down.
-
-if this helps you out, drop a ⭐ or come hang: [discord.gg/JpeFatN8yn](https://discord.gg/JpeFatN8yn)
+sky is a pretty small class but there's a couple weird things in it i didn't expect — mainly that the front face setter has a GA call buried in it, and that `CelestialBodiesShown` is wired up differently from everything else.
 
 ---
 
@@ -159,7 +157,7 @@ namespace Offsets {
 }
 ```
 
-placeholders — dump them yourself, they move between builds.
+
 
 ---
 
