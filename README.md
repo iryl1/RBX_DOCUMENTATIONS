@@ -1,0 +1,1 @@
+im a fairly new roblox ethical cheat developer, and it seems theres not much public documentation about the game called "roblox" so i decided to make my own, if you find this useful you can join https://discord.gg/JpeFatN8yn or star the repo to show ur support
