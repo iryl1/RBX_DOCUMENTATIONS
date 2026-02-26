@@ -1,8 +1,6 @@
-# Roblox Workspace Docs
+# Roblox Workspace System
 
-been reversing the workspace class and figured i'd write it up the same way i did the lighting docs. covers the internal properties, what they do, and how to read/write them.
-
-if this helps you out, drop a ⭐ or come hang: [discord.gg/JpeFatN8yn](https://discord.gg/JpeFatN8yn)
+covers the internal properties, what they do, and how to read/write them.
 
 ---
 
