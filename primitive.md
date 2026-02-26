@@ -1,8 +1,8 @@
-# Roblox Primitive Docs
+# Roblox Primitive System Docs
 
-`Primitive` is the physics engine's representation of a part. it's a completely separate object from `PartInstance` — `PartInstance` is the scripting/datamodel side, `Primitive` is what the physics world actually simulates. every physical part has one. understanding this split is pretty important if you're trying to read physics state from memory.
+`Primitive` is the physics engine's representation of a part. it's a completely separate object from `PartInstance` — `PartInstance` is the scripting/datamodel side, `Primitive` is what the physics world actually simulates. every physical part has one. getting  this split is pretty important if you're trying to read physics state from memory.
 
-if this helps you out, drop a ⭐ or come hang: [discord.gg/JpeFatN8yn](https://discord.gg/JpeFatN8yn)
+
 
 ---
 
@@ -416,7 +416,6 @@ namespace Offsets {
 }
 ```
 
-placeholders — dump them yourself, they move between builds.
 
 ---
 
