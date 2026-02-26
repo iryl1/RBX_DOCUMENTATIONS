@@ -1,11 +1,10 @@
 # Roblox DataModel System Docs
 
-another entry in the internal docs series. this one covers the DataModel — what it actually is, how it gets created and destroyed, how its services are initialized, the hack flag system, threading model, and all the metadata it carries (placeId, creatorId, genre, etc.).
+ this one covers the DataModel — what it actually is, how it gets created and destroyed, how its services are initialized, the hack flag system, threading model, and all the metadata it carries (placeId, creatorId, genre, etc.).
 
-if this helps, ⭐ the repo or join the discord: [discord.gg/JpeFatN8yn](https://discord.gg/JpeFatN8yn)
 
 ---
-
+- note this one was one of the hardest 
 ## What this covers
 
 - what DataModel actually is and what it inherits from
