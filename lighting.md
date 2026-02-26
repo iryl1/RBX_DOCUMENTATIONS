@@ -1,6 +1,6 @@
 # Roblox Lighting System Docs
 
-
+Lighting system — how it works, what all the types and properties actually mean, and how to replicate it by writing to offsets yourself
 ---
 
 ## What this covers
