@@ -1,8 +1,7 @@
 # Roblox ForceField System Docs
 
-another one in the series. ForceField is a lot simpler than the previous systems but there's some interesting stuff in how the detection and rendering work that's worth documenting properly.
+ ForceField is a lot simpler than the previous systems but there's some interesting stuff in how the detection and rendering work that's worth documenting properly.
 
-if this helps, ⭐ the repo or join the discord: [discord.gg/JpeFatN8yn](https://discord.gg/JpeFatN8yn)
 
 ---
 
