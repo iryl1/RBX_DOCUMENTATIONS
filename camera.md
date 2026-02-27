@@ -235,8 +235,6 @@ when interpolation finishes it fires `interpolationFinishedSignal` (exposed to L
 
 same approach as the lighting docs — there's no single property you can write to set the camera state. you have to derive each value and write them individually.
 
-> **note:** all offsets are placeholders. dump your own.
-
 ### setup
 
 ```cpp
