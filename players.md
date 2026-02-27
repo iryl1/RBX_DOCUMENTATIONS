@@ -15,7 +15,7 @@
 - chat — routing, the history, super safe chat, the `/sc` command parser
 - CharacterAutoLoads
 - block/unblock — the client/server flow
-- the anti-cheat hash system — golden hashes, mem hashes, and when kicks happen
+- the anti-tamper hash system — golden hashes, mem hashes, and when kicks happen
 - **how to read/write all of this yourself via offsets**
 
 ---
