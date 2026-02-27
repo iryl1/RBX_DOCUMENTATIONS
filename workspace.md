@@ -591,8 +591,6 @@ namespace Offsets {
 }
 ```
 
-all offsets are placeholders — dump them yourself. they shift between builds.
-
 ---
 
 *more stuff coming as i dig further. PRs welcome if something's wrong.*
