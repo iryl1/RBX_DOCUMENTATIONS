@@ -227,7 +227,6 @@ previousState         = FREE_FALL
 
 same deal as the other docs — no single write, every property goes to its own offset individually.
 
-> **note:** all offsets are placeholders. dump your own, they shift between updates.
 
 ### setup
 
