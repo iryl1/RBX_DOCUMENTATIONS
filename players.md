@@ -1,8 +1,7 @@
-# Roblox Players Docs
+# Roblox Players System Docs
 
-`Players` is the service that manages the player list, handles chat routing, tracks local player state, and runs the anti-cheat hash checks. there's a lot going on in here — the game mode detection logic alone is worth understanding if you're doing anything context-sensitive.
+`Players` is the service that manages the player list, handles chat routing, tracks local player state, and runs the anti tamper hash checks
 
-if this helps you out, drop a ⭐ or come hang: [discord.gg/JpeFatN8yn](https://discord.gg/JpeFatN8yn)
 
 ---
 
@@ -296,7 +295,6 @@ namespace Offsets {
 }
 ```
 
-placeholders — dump them yourself, they move between builds.
 
 ---
 
