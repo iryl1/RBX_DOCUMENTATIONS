@@ -1,4 +1,6 @@
-# Roblox GuiBase2d System Docs
+# Roblox GuiBase2d Docs
+
+been digging through the GuiBase2d source and writing down how it actually works. covers the resize/layout pipeline, position/size storage, rendering traversal, and child validation. might save you some headaches if you're working with Roblox's GUI internals.
 
 ---
 
